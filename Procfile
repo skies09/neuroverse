@@ -1,1 +1,1 @@
-gunicorn neuroverse.wsgi
+web: gunicorn neuroverse.wsgi:application
